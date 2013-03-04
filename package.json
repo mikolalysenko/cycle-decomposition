@@ -1,0 +1,31 @@
+{
+  "name": "cycle-decomposition",
+  "version": "0.0.0",
+  "description": "Computes the cycle decomposition for a permutation",
+  "main": "cycles.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/cycle-decomposition.git"
+  },
+  "keywords": [
+    "cycle",
+    "permutation",
+    "decomposition",
+    "group",
+    "algebra"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "4acfcf8296f37834f3bbb4707bf8d898ec8835ba"
+}
