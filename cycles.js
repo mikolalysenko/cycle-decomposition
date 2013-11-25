@@ -1,12 +1,10 @@
 "use strict"
 
-var SCRATCH = new Uint8Array(1024)
+var pool = require("typedarray-pool")
 
 function cycleDecomposition(pi) {
   var i, j, k, t, cur_cycle, cycles = []
-  if(pi.length > SCRATCH.length) {
-    SCRATCH = new Uint8Array(pi.length)
-  }
+  var SCRATCH = pool.mallocUint8(pi.length)
   for(i=0; i<pi.length; ++i) {
     SCRATCH[i] = 0
   }
@@ -30,6 +28,7 @@ function cycleDecomposition(pi) {
     }
     cycles.push(cur_cycle)
   }
+  pool.freeUint8(SCRATCH)
   return cycles
 }
 
