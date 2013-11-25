@@ -1,6 +1,6 @@
 {
   "name": "cycle-decomposition",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Computes the cycle decomposition for a permutation",
   "main": "cycles.js",
   "directories": {
