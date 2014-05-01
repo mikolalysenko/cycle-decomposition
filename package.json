@@ -1,19 +1,19 @@
 {
   "name": "cycle-decomposition",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Computes the cycle decomposition for a permutation",
   "main": "cycles.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "typedarray-pool": "~0.1.1"
+    "typedarray-pool": "^1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.4.0"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
