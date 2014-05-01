@@ -31,4 +31,4 @@ The main function in this library takes a length n permutation represented as a 
 
 Credits
 =======
-(c) 2013 Mikola Lysenko.  MIT License
+(c) 2013-2014 Mikola Lysenko.  MIT License
